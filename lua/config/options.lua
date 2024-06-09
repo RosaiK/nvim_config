@@ -4,3 +4,5 @@
 opt = vim.opt
 opt.foldmethod = "syntax"
 opt.foldlevel = 0
+-- Enable the option to require a Prettier config file
+-- If no prettier config file is found, the formatter will not be used

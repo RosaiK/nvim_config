@@ -93,3 +93,6 @@ vim.filetype.add({
     astro = "html",
   },
 })
+
+local TagConfigs = require("nvim-ts-autotag.config.init")
+TagConfigs:add_alias("astro", "html", "tsx")
